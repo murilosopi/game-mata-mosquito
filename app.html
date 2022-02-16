@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mata Mosquito</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <div class="panel">
+      <div class="lifes">
+        <img id="l-1" src="assets/img/filled-heart.png" alt="" />
+        <img id="l-2" src="assets/img/filled-heart.png" alt="" />
+        <img id="l-3" src="assets/img/filled-heart.png" alt="" />
+      </div>
+      <div class="timer">Tempo restante: <span id="timeleft"></span></div>
+    </div>
+    <script>
+      const insertMosquito = setInterval(function () {
+        removeMosquito();
+        randomPosition();
+      }, timeMosquitoCreation);
+    </script>
+  </body>
+</html>

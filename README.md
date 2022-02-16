@@ -1,0 +1,2 @@
+# Mata Mosquito
+A fun game developed as a practice of JavaScript knowledge using resources available in the Web Development course taught by <a href="https://www.udemy.com/user/jorgetadeusantanasilva/" target="_blank">Jorge Sant Ana at Udemy</a>.

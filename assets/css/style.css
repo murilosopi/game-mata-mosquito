@@ -1,0 +1,54 @@
+:hover {
+  cursor: url('../img/cursor.png') 30 30, auto;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mosquito-sm {
+  width: 5rem;
+  height: 5rem;
+}
+
+.mosquito-md {
+  width: 6rem;
+  height: 6rem;
+}
+
+.mosquito-lg {
+  width: 7rem;
+  height: 7rem;
+}
+
+.reflect {
+  transform: scaleX(-1);
+}
+
+.panel {
+  position: absolute;
+  width: 250px;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.timer,
+.lifes {
+  float: right;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
